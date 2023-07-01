@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Impact", sans-serif;
+  src: url(../fonts/impact.woff2);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.big-container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 920px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #040404;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* ---------------------HEADER-------------------- */
+
+.header {
+  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 1599px;
+  height: 87px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list {
+  display: flex;
+  gap: 0 40px;
+  padding-top: 25px;
+}
+
+.menu-link {
+  color: #363636;
+  font-size: 16px;
+}
+
+.menu-left {
+  padding-left: 25px;
+}
+
+.menu-right {
+  padding-right: 80px;
+}
+
+/* -----------------------PROMO---------------- */
+.promo {
+  background-image: url(../images/promo-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo-inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.title {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.52px;
+  font-size: 76px;
+  color: #040404;
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-size: 48px;
+  font-family: "Impact", sans-serif;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.subtitle span {
+  display: block;
+  color: #9f6b08;
+  font-size: 34px;
+  line-height: 33.984px;
+  padding: 10px 0;
+}
+
+.promo-text {
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.promo-arrow {
+  margin-top: auto;
+  margin-bottom: 30px;
+  align-content: center;
+}
+
+/* ------------INFO----------------- */
+.info {
+  margin-bottom: 100px;
+}
+
+.info-part {
+  margin-bottom: 100px;
+}
+
+.info-part-first {
+  display: block;
+}
+
+.info-part-third {
+  padding-top: 66px;
+}
