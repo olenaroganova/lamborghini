@@ -129,10 +129,12 @@ body {
 /* ------------INFO----------------- */
 .info {
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .info-part {
   margin-bottom: 100px;
+  display: flex;
 }
 
 .info-part-first {
@@ -141,4 +143,26 @@ body {
 
 .info-part-third {
   padding-top: 66px;
+}
+
+.info-title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.info-part-textbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.info-text {
+  flex-basis: 440px;
+  margin-bottom: 30px;
+}
+
+.info-part-img {
+  object-fit: cover;
 }
